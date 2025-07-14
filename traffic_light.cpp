@@ -2,15 +2,13 @@
 #define red 12
 #define yellow 11
 #define green 10
-void setup()
-{
+void setup(){
   pinMode(red,OUTPUT);
   pinMode(yellow,OUTPUT);
   pinMode(green,OUTPUT);
 }
 
-void loop()
-{
+void loop(){
   digitalWrite(green, HIGH);
   delay(30000);
   digitalWrite(green,LOW);
